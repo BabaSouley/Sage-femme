@@ -13,21 +13,21 @@ const Services = () => {
       title: "Suivi de grossesse",
       description: "Accompagnement complet pendant votre grossesse avec consultations personnalisées, surveillance médicale et préparation à la naissance.",
       icon: Heart,
-      image: "https://images.unsplash.com/photo-1493894473891-10fc1e5dbd22?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwxfHxwcmVnbmFudCUyMHdvbWFufGVufDB8fHx8MTc1MzQ2ODU2NXww&ixlib=rb-4.1.0&q=85",
+      image: "https://www.stadev.fr/IMG/Coeur sur ventre.jpeg",
       features: ["Consultations mensuelles", "Échographies", "Dépistage prénatal", "Préparation à la naissance"]
     },
     {
       title: "Accouchement à domicile",
       description: "Accompagnement pour un accouchement naturel dans le confort et l'intimité de votre foyer, en toute sécurité.",
       icon: Home,
-      image: "https://images.unsplash.com/photo-1583710457367-47de0ea21fef?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwzfHxtb3RoZXIlMjBiYWJ5fGVufDB8fHx8MTc1MzQ2ODU4Mnww&ixlib=rb-4.1.0&q=85",
+      image: "https://www.stadev.fr/IMG/femme porte bébé.jpeg",
       features: ["Préparation personnalisée", "Matériel médical fourni", "Accompagnement continu", "Sécurité médicale"]
     },
     {
       title: "Soins postpartum",
       description: "Suivi attentif après la naissance pour vous accompagner dans cette période d'adaptation et favoriser votre récupération.",
       icon: Baby,
-      image: "https://images.unsplash.com/photo-1542385151-efd9000785a0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwxfHxtb3RoZXIlMjBiYWJ5fGVufDB8fHx8MTc1MzQ2ODU4Mnww&ixlib=rb-4.1.0&q=85",
+      image: "https://www.stadev.fr/IMG/femme porte bébé caché.jpeg",
       features: ["Visites à domicile", "Allaitement maternel", "Soins du nouveau-né", "Soutien psychologique"]
     }
   ];
