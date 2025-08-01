@@ -9,7 +9,7 @@ const Testimonials = () => {
   const isInView = useInView(ref, { once: true, amount: 0.2 });
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const backgroundImage = "https://www.stadev.fr/IMG/petite main bébé.jpeg";
+  const backgroundImage = "https://www.stadev.fr/IMG/petite%20main%20be%CC%81be%CC%81.jpeg";
 
   const testimonials = [
     {

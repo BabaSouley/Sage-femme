@@ -8,7 +8,7 @@ const About = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
-  const backgroundImage = "https://www.stadev.fr/IMG/femme tient ventre.jpeg"
+  const backgroundImage = "https://www.stadev.fr/IMG/Femme%20tient%20ventre.jpeg"
 
   const qualifications = [
     {

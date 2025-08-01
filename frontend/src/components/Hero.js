@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Heart, Star, Users } from 'lucide-react';
 
 const Hero = () => {
-  const heroImage = "/IMG/femme tient ventre champ.jpeg"
+  const heroImage = "https://www.stadev.fr/IMG/Femme%20tient%20ventre%20champ.jpeg"
 
   const stats = [
     { icon: Users, number: "500+", label: "Naissances accompagnées" },
