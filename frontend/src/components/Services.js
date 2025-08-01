@@ -20,14 +20,14 @@ const Services = () => {
       title: "Accouchement à domicile",
       description: "Accompagnement pour un accouchement naturel dans le confort et l'intimité de votre foyer, en toute sécurité.",
       icon: Home,
-      image: "https://www.stadev.fr/IMG/femme porte bébé.jpeg",
+      image: "https://www.stadev.fr/IMG/femme%20porte%20be%CC%81be%CC%81.jpeg",
       features: ["Préparation personnalisée", "Matériel médical fourni", "Accompagnement continu", "Sécurité médicale"]
     },
     {
       title: "Soins postpartum",
       description: "Suivi attentif après la naissance pour vous accompagner dans cette période d'adaptation et favoriser votre récupération.",
       icon: Baby,
-      image: "https://www.stadev.fr/IMG/femme porte bébé caché.jpeg",
+      image: "https://www.stadev.fr/IMG/femme%20porte%20be%CC%81be%CC%81%20cache%CC%81.jpeg",
       features: ["Visites à domicile", "Allaitement maternel", "Soins du nouveau-né", "Soutien psychologique"]
     }
   ];
