@@ -181,7 +181,7 @@ const About = () => {
                 vers cette rencontre extraordinaire avec votre enfant."
               </blockquote>
               <cite className="block mt-4 text-primary-600 font-medium">
-                — Sarah Dubois, Sage-femme
+                — Angèle Rosalie, Sage-femme
               </cite>
             </motion.div>
           </motion.div>

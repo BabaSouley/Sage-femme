@@ -8,16 +8,15 @@ const GalerieReact = () => {
 
 
   const cabinetImages = [
-    { src: "/images/cabinet1.jpg", alt: "Salle d’attente" },
-    { src: "https://www.stadev.fr/IMG/Bureau.png", alt: "Bureau du médecin" },
-    { src: "/images/cabinet2.jpg", alt: "Bureau du médecin" },
-    { src: "/images/cabinet2.jpg", alt: "Bureau du médecin" },
+    { src: "https://www.stadev.fr/IMG/facade.png", alt: "Le cabinet" },
+    { src: "https://www.stadev.fr/IMG/salle-attente.png", alt: "Salle d’attente" },
+    { src: "https://www.stadev.fr/IMG/Bureau.png", alt: "Salle de consultation" },
   ];
-
+  
   const plateauImages = [
-    { src: "/images/plateau1.jpg", alt: "Matériel technique" },
-    { src: "/images/plateau2.jpg", alt: "Salle d’examen" },
-    { src: "/images/plateau2.jpg", alt: "Salle d’examen" },
+    { src: "https://www.stadev.fr/IMG/Salle tapis.png", alt: "Salle de préparation" },
+    { src: "https://www.stadev.fr/IMG/consultation-arriere.png", alt: "Fauteuil d'examen" },
+    { src: "https://www.stadev.fr/IMG/plateau technique.png", alt: "Plateau technique" },
   ];
 
   const [activeCategory, setActiveCategory] = useState("cabinet");
@@ -53,7 +52,7 @@ const GalerieReact = () => {
                 : "bg-white text-sage-700 border border-sage-200 hover:bg-sage-100"
             }`}
           >
-            Cabinet
+            Les locaux
           </button>
           <button
             onClick={() => setActiveCategory("plateau")}
@@ -63,7 +62,7 @@ const GalerieReact = () => {
                 : "bg-white text-sage-700 border border-sage-200 hover:bg-sage-100"
             }`}
           >
-            Plateau technique
+            La préparation
           </button>
         </div>
 
