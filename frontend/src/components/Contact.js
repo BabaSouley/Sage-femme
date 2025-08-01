@@ -24,49 +24,57 @@ const Contact = () => {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Here you would typically send the form data to your backend
-    console.log('Form submitted:', formData);
-    setIsSubmitted(true);
-    
-    // Reset form after 3 seconds
-    setTimeout(() => {
-      setIsSubmitted(false);
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        subject: 'consultation',
-        message: ''
+    try {
+      const response = await fetch('http://localhost:8000/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
       });
-    }, 3000);
+
+      if (!response.ok) {
+        throw new Error('La réponse du serveur n\'est pas bonne.');
+      }
+
+      setIsSubmitted(true);
+      
+      setTimeout(() => {
+        setIsSubmitted(false);
+        setFormData({ name: '', email: '', phone: '', subject: 'consultation', message: '' });
+      }, 3000);
+    } catch (error) {
+      console.error("Erreur lors de l'envoi du formulaire:", error);
+      alert("Une erreur est survenue. Veuillez réessayer plus tard.");
+    }
   };
 
   const contactInfo = [
     {
       icon: Phone,
       title: "Téléphone",
-      content: "06 12 34 56 78",
-      description: "Du lundi au samedi de 8h à 20h"
+      content: "06 21 30 68 56",
+      description: "Du lundi au vendredi de 8h à 20h"
     },
     {
       icon: Mail,
-      title: "Email",
-      content: "sarah.dubois@sage-femme.fr",
+      title: "Adresse Email",
+      content: "angelerosalie.sf@proton.me",
       description: "Réponse sous 24h"
     },
     {
       icon: MapPin,
-      title: "Zone d'intervention",
-      content: "Lyon et métropole",
+      title: "Secteur d'intervention",
+      content: "Annecy et ses alentours",
       description: "Dans un rayon de 30 km"
     },
     {
       icon: Clock,
-      title: "Disponibilité",
-      content: "7j/7 - 24h/24",
-      description: "Pour les urgences obstétricales"
+      title: "Horaire du cabinet",
+      content: "9H00-16H00 ",
+      description: "Lundi/Mardi/Jeudi/Vendredi"
     }
   ];
 
@@ -125,7 +133,7 @@ const Contact = () => {
                       whileHover={{ scale: 1.02 }}
                       className="glass-card p-6 rounded-2xl hover:shadow-lg transition-all duration-300"
                     >
-                      <div className="flex items-start space-x-4">
+                      <div className="flex items-start space-x-4 center">
                         <div className="bg-primary-100 p-3 rounded-full flex-shrink-0">
                           <Icon className="w-6 h-6 text-primary-600" />
                         </div>

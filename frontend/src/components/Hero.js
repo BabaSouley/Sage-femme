@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { Heart, Star, Users } from 'lucide-react';
 
 const Hero = () => {
-  const heroImage = "https://images.unsplash.com/photo-1538678867871-8a43e7487746?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwzfHxwcmVnbmFudCUyMHdvbWFufGVufDB8fHx8MTc1MzQ2ODU2NXww&ixlib=rb-4.1.0&q=85";
+  const heroImage = "/IMG/femme tient ventre champ.jpeg"
 
   const stats = [
     { icon: Users, number: "500+", label: "Naissances accompagnées" },

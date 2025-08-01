@@ -3,6 +3,7 @@ import Header from './Header';
 import Hero from './Hero';
 import Services from './Services';
 import About from './About';
+import GalerieReact from './Galerie';
 import Testimonials from './Testimonials';
 import Contact from './Contact';
 import FAQ from './FAQ';
@@ -15,6 +16,7 @@ const Home = () => {
       <Hero />
       <Services />
       <About />
+      <GalerieReact />
       <Testimonials />
       <FAQ />
       <Contact />

@@ -16,28 +16,28 @@ const Testimonials = () => {
       name: "Marie L.",
       location: "Lyon",
       rating: 5,
-      text: "Sarah a été d'une présence extraordinaire pendant toute ma grossesse et mon accouchement à domicile. Sa bienveillance, son professionnalisme et sa disponibilité m'ont permis de vivre cette expérience en toute sérénité. Je recommande vivement !",
+      text: "Angèle a été d'une présence extraordinaire pendant toute ma grossesse et mon accouchement à domicile. Sa bienveillance, son professionnalisme et sa disponibilité m'ont permis de vivre cette expérience en toute sérénité. Je recommande vivement !",
       service: "Accouchement à domicile"
     },
     {
       name: "Émilie & Thomas",
       location: "Villeurbanne",
       rating: 5,
-      text: "Nous avons été accompagnés par Sarah pour notre première grossesse. Elle a su nous rassurer, nous préparer et nous donner confiance. Son approche naturelle et respectueuse nous a permis de vivre un moment magique. Merci infiniment !",
+      text: "Nous avons été accompagnés par Angèle pour notre première grossesse. Elle a su nous rassurer, nous préparer et nous donner confiance. Son approche naturelle et respectueuse nous a permis de vivre un moment magique. Merci infiniment !",
       service: "Suivi de grossesse complet"
     },
     {
       name: "Claire M.",
       location: "Caluire-et-Cuire",
       rating: 5,
-      text: "Le suivi post-partum avec Sarah a été précieux. Elle m'a accompagnée dans les premiers jours avec bébé, m'aidant pour l'allaitement et répondant à toutes mes questions avec patience et expertise. Une sage-femme exceptionnelle !",
+      text: "Le suivi post-partum avec Angèle a été précieux. Elle m'a accompagnée dans les premiers jours avec bébé, m'aidant pour l'allaitement et répondant à toutes mes questions avec patience et expertise. Une sage-femme exceptionnelle !",
       service: "Soins postpartum"
     },
     {
       name: "Sophie R.",
       location: "Bron",
       rating: 5,
-      text: "Sarah combine parfaitement compétence médicale et qualités humaines. Son écoute, sa disponibilité et son respect de nos choix ont fait toute la différence. Une expérience de naissance inoubliable grâce à son accompagnement.",
+      text: "Angèle combine parfaitement compétence médicale et qualités humaines. Son écoute, sa disponibilité et son respect de nos choix ont fait toute la différence. Une expérience de naissance inoubliable grâce à son accompagnement.",
       service: "Préparation à la naissance"
     }
   ];

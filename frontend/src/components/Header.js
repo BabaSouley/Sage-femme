@@ -41,7 +41,7 @@ const Header = () => {
             className="flex-shrink-0"
           >
             <h1 className="font-display text-2xl lg:text-3xl font-semibold text-sage-800">
-              Sarah Dubois
+              Angèle Rosalie
             </h1>
             <p className="text-sm text-sage-600 -mt-1">Sage-femme libérale</p>
           </motion.div>

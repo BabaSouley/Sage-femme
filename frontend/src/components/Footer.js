@@ -78,7 +78,7 @@ const Footer = () => {
                 viewport={{ once: true }}
               >
                 <h4 className="font-display text-2xl font-semibold text-warm-200 mb-4">
-                  Sarah Dubois
+                  Angèle Rosalie
                 </h4>
                 <p className="text-sage-300 mb-6 leading-relaxed">
                   Sage-femme libérale passionnée, j'accompagne les femmes et les familles 
@@ -185,21 +185,21 @@ const Footer = () => {
                   <div className="flex items-start space-x-3">
                     <Phone className="w-5 h-5 text-primary-500 mt-0.5 flex-shrink-0" />
                     <div>
-                      <p className="text-sage-300 text-sm">06 12 34 56 78</p>
-                      <p className="text-sage-400 text-xs">Lun-Sam 8h-20h</p>
+                      <p className="text-sage-300 text-sm">06 21 30 68 56</p>
+                      <p className="text-sage-400 text-xs">Lun-Ven 9h-18h</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
                     <Mail className="w-5 h-5 text-primary-500 mt-0.5 flex-shrink-0" />
                     <div>
-                      <p className="text-sage-300 text-sm">sarah.dubois@sage-femme.fr</p>
+                      <p className="text-sage-300 text-sm">angelerosalie.sf@proton.me</p>
                       <p className="text-sage-400 text-xs">Réponse sous 24h</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
                     <MapPin className="w-5 h-5 text-primary-500 mt-0.5 flex-shrink-0" />
                     <div>
-                      <p className="text-sage-300 text-sm">Lyon et métropole</p>
+                      <p className="text-sage-300 text-sm">Annecy et alentours</p>
                       <p className="text-sage-400 text-xs">Rayon de 30 km</p>
                     </div>
                   </div>
@@ -237,7 +237,7 @@ const Footer = () => {
               className="text-sage-400 text-sm text-center md:text-left"
             >
               <p>
-                © {currentYear} Sarah Dubois - Sage-femme libérale. Tous droits réservés.
+                © {currentYear} Angèle Rosalie - Sage-femme libérale. Tous droits réservés.
               </p>
               <p className="mt-1">
                 Diplôme d'État n° 12345 - ADELI: 690123456

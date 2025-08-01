@@ -8,28 +8,28 @@ const About = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.2 });
 
-  const backgroundImage = "https://images.unsplash.com/photo-1457342813143-a1ae27448a82?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwxfHxwcmVnbmFuY3l8ZW58MHx8fHwxNzUzNDY4NjAyfDA&ixlib=rb-4.1.0&q=85";
+  const backgroundImage = "/IMG/femme tient ventre.jpeg"
 
   const qualifications = [
     {
       icon: Award,
       title: "Diplôme d'État",
-      description: "Sage-femme diplômée de l'École de Sages-femmes de Lyon"
+      description: "Sage-femme diplômée de l'École de Sages-femmes en 2010"
     },
     {
       icon: BookOpen,
-      title: "Formation continue",
-      description: "Spécialisations en haptonomie et accompagnement périnatal"
+      title: "Formation aux risques",
+      description: "Situation critique en maternité, Réanimation du nouveau-né, Rythme cardiaque fœtal"
     },
     {
       icon: Heart,
-      title: "Approche holistique",
-      description: "Prise en compte globale de la femme et du couple"
+      title: "Formation physiologique",
+      description: "Allaitement , Position accouchements, naissance physiologique"
     },
     {
       icon: Users,
-      title: "Expérience reconnue",
-      description: "Plus de 500 naissances accompagnées avec succès"
+      title: "Suivi des patientes",
+      description: "Diabète gestationnel, activités aquatiques pré-natales, IVG médicamenteuse"
     }
   ];
 
@@ -72,10 +72,10 @@ const About = () => {
                 className="space-y-6 text-warm-100 leading-relaxed"
               >
                 <p className="text-lg">
-                  Je suis Sarah Dubois, sage-femme libérale passionnée par l'accompagnement 
-                  des femmes et des familles dans leur parcours de maternité. Fort de plus de 
-                  15 années d'expérience, j'ai développé une approche bienveillante et 
-                  personnalisée de la périnatalité.
+                  Je suis Angèle Rosalie, Sage-femme passionnée depuis 15 ans,
+                  j'ai exercé mon métier en hospitalier et en libéral.
+                  Je propose désormais un accompagnement global et personnalisé 
+                  pour les femmes et les couples souhaitant vivre un accouchement naturel en toute sérénité.
                 </p>
                 
                 <p className="text-lg">
@@ -89,6 +89,12 @@ const About = () => {
                   Spécialisée dans l'accompagnement global à la naissance, je propose un 
                   suivi personnalisé qui respecte vos valeurs et vos souhaits, tout en 
                   garantissant la sécurité médicale nécessaire.
+                </p>
+                <p className="text-lg">
+                  je fais egalement partie de plusieurs groupes : <br></br>
+                  Membre d'une association de gestion agrée <br></br>
+                  Membre du réseau périnatal des deux savoies <br></br>
+                  Membre de l'association nationale des sages-femmes en plateau technique
                 </p>
               </motion.div>
             </div>
