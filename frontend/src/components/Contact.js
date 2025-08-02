@@ -52,13 +52,13 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Téléphone",
-      content: "06 21 30 68 56",
+      content:  <a href="tel:0621306856">06 21 30 68 56</a>,
       description: "Du lundi au vendredi de 8h à 20h"
     },
     {
       icon: Mail,
       title: "Adresse Email",
-      content: "angelerosalie.sf@proton.me",
+      content: <a href="mailto:angelerosalie.sf@proton.me">angelerosalie.sf@proton.me</a>,
       description: "Réponse sous 24h"
     },
     {

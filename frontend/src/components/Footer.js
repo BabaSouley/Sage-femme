@@ -185,14 +185,14 @@ const Footer = () => {
                   <div className="flex items-start space-x-3">
                     <Phone className="w-5 h-5 text-primary-500 mt-0.5 flex-shrink-0" />
                     <div>
-                      <p className="text-sage-300 text-sm">06 21 30 68 56</p>
+                      <a href="tel:0621306856"><p className="text-sage-300 text-sm">06 21 30 68 56</p></a>
                       <p className="text-sage-400 text-xs">Lun-Ven 9h-18h</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
                     <Mail className="w-5 h-5 text-primary-500 mt-0.5 flex-shrink-0" />
                     <div>
-                      <p className="text-sage-300 text-sm">angelerosalie.sf@proton.me</p>
+                      <a href="mailto:angelerosalie.sf@proton.me"> <p className="text-sage-300 text-sm">angelerosalie.sf@proton.me</p> </a>
                       <p className="text-sage-400 text-xs">Réponse sous 24h</p>
                     </div>
                   </div>
