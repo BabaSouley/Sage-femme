@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { Phone, Mail, MapPin, Clock, Send, CheckCircle } from 'lucide-react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
   const ref = useRef(null);
@@ -25,31 +26,27 @@ const Contact = () => {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    try {
-      const response = await fetch('http://localhost:8000/api/contact', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
-      });
+  e.preventDefault();
+  try {
+    const result = await emailjs.send(
+      'service_osxo9xq',      // Remplace par ton Service ID
+      'template_5wzzrrt',     // Remplace par ton Template ID
+      formData,
+      'YGj1HqTkgK36XGRuY'    // Remplace par ta Public Key
+    );
 
-      if (!response.ok) {
-        throw new Error('La réponse du serveur n\'est pas bonne.');
-      }
+    console.log('Email envoyé :',result.text);
+    setIsSubmitted(true);
 
-      setIsSubmitted(true);
-      
-      setTimeout(() => {
-        setIsSubmitted(false);
-        setFormData({ name: '', email: '', phone: '', subject: 'consultation', message: '' });
-      }, 3000);
-    } catch (error) {
-      console.error("Erreur lors de l'envoi du formulaire:", error);
-      alert("Une erreur est survenue. Veuillez réessayer plus tard.");
-    }
-  };
+    setTimeout(() => {
+      setIsSubmitted(false);
+      setFormData({ name: '', email: '', phone: '', subject: 'consultation', message: '' });
+    }, 3000);
+  } catch (error) {
+    console.error('EmailJS Error:', error);
+    alert("Une erreur est survenue. Veuillez réessayer plus tard.");
+  }
+};
 
   const contactInfo = [
     {
